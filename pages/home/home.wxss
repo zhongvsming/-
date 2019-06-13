@@ -1,0 +1,45 @@
+/* pages/home/home.wxss */
+.header{
+  height: 310px;
+  background: #ccc;
+  padding-top: 10px;
+}
+.card-outer{
+  width: 90%;
+  height: 180px;
+  /* border: 1px solid red; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px;
+  display: flex;
+  background: white;
+  box-shadow: 1px 1px 1px grey;
+  border-radius: 5px;
+}
+.card-image{
+  flex: 1;
+  /* background: url('../../images/liudehua.jpg'); */
+  background: yellowgreen url('https://game.gtimg.cn/images/yxzj/img201606/heroimg/505/505.jpg') no-repeat fixed center padding-box ;
+  /* border: 1px solid yellow; */
+}
+.card-content{
+  /* border: 1px solid green; */
+  flex: 1;
+  overflow: hidden;
+  font-size: 0.6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card-name{
+  background: #ccc;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 5px 5px 25px;
+}
+.card-detail{
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}

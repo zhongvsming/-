@@ -1,0 +1,21 @@
+<!--pages/home/home.wxml-->
+<view class='header'>
+  <view class='card-outer'>
+    <!-- <view class='card-image'><image src='../../images/liudehua.jpg' style='width:100%;height:100%;'></image></view> -->
+    <view class='card-image'></view>
+
+    <view class='card-content'>
+      <text style='text-align:right;padding:5px;'>星皇公司</text>
+      <view class='card-name'>
+        <text style='font-size:1.5em;font-weight:bold;'>刘德华</text>
+        <text>运营/策划</text>
+      </view>
+      <view class='card-detail'>
+        <text>13432225487</text>
+        <text>2659898974@qq.com</text>
+        <text>龙岗中心天安数码城3路一座887</text>
+      </view>
+
+    </view>
+  </view>
+</view>
