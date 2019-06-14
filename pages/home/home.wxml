@@ -1,9 +1,10 @@
 <!--pages/home/home.wxml-->
+<!-- 头部区域 -->
 <view class='header'>
-  <view class='card-outer'>
+  <!-- 头部名片区域 -->
+  <view class='header-card-outer'>
     <!-- <view class='card-image'><image src='../../images/liudehua.jpg' style='width:100%;height:100%;'></image></view> -->
     <view class='card-image'></view>
-
     <view class='card-content'>
       <text style='text-align:right;padding:5px;'>星皇公司</text>
       <view class='card-name'>
@@ -15,6 +16,50 @@
         <text>2659898974@qq.com</text>
         <text>龙岗中心天安数码城3路一座887</text>
       </view>
+    </view>
+  </view>
+
+  <!-- 头部按钮区域 -->
+  <view class='header-btns'>
+    <view class='header-btns-inner'>
+      <!-- <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover" style="width:45%;height:40px;line-height:40px;"> default </button>
+      <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="primary" style="width:45%;height:40px;line-height:40px;"> primary </button> -->
+      <button style="width:47%;height:40px;padding:0;font-size:14px;line-height:40px;background:white;border:1px rgb(26, 172, 25) solid;color:rgb(7,193,96);margin-left:0;">分享名片</button>
+      <button style="width:47%;height:40px;padding:0;font-size:14px;line-height:40px;background:rgb(26, 172, 25);color:white;margin-right:0;">交换联系方式</button>
+    </view>
+  </view>
+
+  <!-- 头部电话，微信，邮箱等 -->
+  <view class="header-info">
+    <view class='header-info-detail'>
+      二维码
+    </view>
+    <view class='header-info-detail'>
+      <text>拨打电话</text>
+      <text>13432509797</text>
+    </view>
+    <view class='header-info-detail'>
+            <text>加我微信</text>
+      <text>295674545</text>
+    </view>
+    <view class='header-info-detail' style='margin-right:0;'>
+                  <text>邮箱</text>
+      <text>295674545@qq.com</text>
+    </view>
+  </view>
+
+  <!-- 浏览过的人 -->
+  <view class='header-visited'>
+    浏览过的人
+  </view>
+</view>
+
+<!-- 主内容 -->
+<view class='main-container'>
+<!-- 个人简介 -->
+  <view class='myself'>
+    <text style='padding:10px;font-size:0.8em;'>个人简介</text>
+    <view class='myself-body'>
 
     </view>
   </view>
